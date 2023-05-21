@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="/style/buy.css">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <section class="row">
+            <div class="col-md-4">
+                <div class="card border-primary">
+                    <div class="card-body">
+                        <h2 class="card-title">Estudiante</h2>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card border-secondary">
+                    <div class="card-body">
+                        <h2 class="card-title">Trainee</h2>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card border-success">
+                    <div class="card-body">
+                        <h2 class="card-title">Junior</h2>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h4 class="text-center text-secondary">Venta</h4>
+            <h1 class="text-center">El valor del ticket es de $200</h1>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" class="form-control" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" id="apellido" class="form-control" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="mail">Correo electrónico:</label>
+                    <input type="email" id="mail" class="form-control" required>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="categoria">Categoría:</label>
+                        <select id="categoria" class="form-control">
+                            <option value="estudiante">Estudiante</option>
+                            <option value="trainee">Trainee</option>
+                            <option value="junior">Junior</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="cantidad">Cantidad de tickets:</label>
+                        <select id="cantidad" class="form-control">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="total bg-info text-white p-2">
+                    <label>Total a pagar:</label>
+                    <span id="totalPagar">$0</span>
+                </div>
+                <div class="buttons mt-2">
+                    <button id="borrar" class="btn btn-success text-white col-md-6">Borrar</button>
+                    <button id="resumen" class="btn btn-success text-white col-md-6">Resumen</button>
+                </div>
+            </form>
+        </section>
+        
+    </div>
+    <footer>
+
+        <div class="footer">
+            <div class="footer-item">Preguntas <br>
+                frecuentes</div>
+            <div class="footer-item">Contáctanos</div>
+            <div class="footer-item">Prensa</div>
+            <div class="footer-item">Conferencias</div>
+            <div class="footer-item">Términos y <br> condiciones</div>
+            <div class="footer-item">Privacidad</div>
+            <div class="footer-item">Estudiantes</div>
+        </div>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
